@@ -23,6 +23,7 @@ python extract_and_translate.py -f input_file.docx -o output_file.md -il en -ol 
 Alternatively:
 ```bash
 chmod +x extract_and_translate.py
+echo '#!/bin/env '"$(which python3)" | cat - extract_and_translate.py > temp && mv temp extract_and_translate.py
 ./extract_and_translate.py -f input_file.docx -o output_file.md -il en -ol fr
 ```
 Add to path:

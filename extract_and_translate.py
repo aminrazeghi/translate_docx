@@ -1,4 +1,3 @@
-#!/bin/env python3
 """
 File: extract_and_translate.py
 Author: Amin Razeghiyadaki
